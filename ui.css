@@ -1,0 +1,28 @@
+.menu{
+    display: flex;
+}
+
+.menu-items{
+    width: 25%;
+background-color:gold;
+
+}
+.menu-items:hover{
+    width:35%;
+    transition: 0.5s;
+    background-color: crimson;
+
+
+}
+.menu-link:hover{
+    color: white
+}
+.menu-link{
+    display: block;
+    text-decoration: none;
+    padding: 1em;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+
+}
